@@ -9,18 +9,33 @@ body {
   font-family: sans-serif;
 }
 
+.kontejner {
+  display: flex;
+}
+
 .blok {
   padding: 20px;
 }
 
 .levy {
   background-color: #f1c40f;
+  flex: 50%;
 }
+
+.pravy {
+  flex: 50%;
+  flex-direction: column;
+  display: flex;
+}
+
 .horni {
   background-color: #2ecc71;
+  flex: 50%;
 }
+
 .dolni {
   background-color: #e74c3c;
+  flex: 50%;
 }
 
 /* ---------------------------------------------------- */
