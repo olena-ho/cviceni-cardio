@@ -9,21 +9,22 @@
     font-weight: bold;
     border: 1px solid black;
     min-height: 100px;
-    flex: calc(1/4);
+    /* flex: calc(1/4); */
+    flex: 1 0 25%;
 }
 
 .prvni { 
   background-color: #2ecc71;
-  order: 0;
+  order: 3;
 }
 .druhy { background-color: #f1c40f;
-  order: -1;
-}
-.treti { background-color: #3498db;
   order: 1;
 }
+.treti { background-color: #3498db;
+  order: 4;
+}
 .ctvrty { background-color: #e74c3c;
-  order: -1;
+  order: 2;
 }
 
 .kontejner {
